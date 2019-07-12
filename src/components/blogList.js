@@ -31,6 +31,7 @@ class BlogList extends Component {
                         return <li key={`post-${post.id}`}><Link to={`post/${post.id}`}>{post.title}</Link></li>
                     })}
                 </ul>
+                {/* <input></input> */}
             </>
         )
     }
